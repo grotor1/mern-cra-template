@@ -1,0 +1,39 @@
+{
+  "name": "mern-cra-template",
+  "version": "1.0.0",
+  "description": "Simple MERN CRA template, with some hooks and template socket file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grotor1/mern-cra-template.git"
+  },
+  "keywords": [
+    "template",
+    "mern",
+    "cra"
+  ],
+  "author": "Varukhin Vladimir <varukhin04@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grotor1/mern-cra-template/issues"
+  },
+  "homepage": "https://github.com/grotor1/mern-cra-template#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.0",
+    "config": "^3.3.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.3"
+  }
+}

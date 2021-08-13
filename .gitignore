@@ -1,0 +1,13 @@
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Modules
+/node_modules
+
+# Config files
+/config
